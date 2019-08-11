@@ -19,6 +19,7 @@ bootstrap/
 
 # CDN(Content Delivery Network)
 - html 파일에서 참조하는 소스코드를 다른 공유공간에서 네트워크로 불러오는 형태
+- 아래의 소스코드를 head 부분에 작성하여 css 기능을 사용할 수 있다.
 ``` html
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
