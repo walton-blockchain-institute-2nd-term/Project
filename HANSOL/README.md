@@ -1,0 +1,30 @@
+# 하이퍼레저 연결 프로젝트
+
+# NPM로 설치(이 방법 사용 안함)
+## bootstrap 설치
+``` shell
+# package.json 파일 생성
+npm init --y
+# bootstrap 설치
+npm install --save bootstrap
+```
+
+## 디렉토리 구성
+``` file system
+bootstrap/
+┝─── CSS/
+┝─── JS/
+└─── fronts/
+```
+
+# CDN(Content Delivery Network)
+- html 파일에서 참조하는 소스코드를 다른 공유공간에서 네트워크로 불러오는 형태
+``` html
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+```
