@@ -29,3 +29,13 @@ bootstrap/
 <!-- Latest compiled JavaScript -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 ```
+
+# 자바스크립트 Button 동작 예시
+``` html
+<button id="button1" onclick="button1_click();">버튼1</button>
+<script>
+function button1_click() {
+	alert("버튼1을 누르셨습니다.");
+}
+</script>
+```
